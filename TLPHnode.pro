@@ -1,4 +1,4 @@
-update=Fri 29 Jan 2016 02:43:37 PM PST
+update=Fri 29 Jan 2016 03:21:34 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,3 +58,14 @@ LibName28=contrib
 LibName29=valves
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=rockingdlabs_letter_with_logo.kicad_wks
+PlotDirectoryName=CAM/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
