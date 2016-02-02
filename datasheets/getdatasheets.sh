@@ -25,7 +25,7 @@ wget http://cache.freescale.com/files/sensors/doc/data_sheet/MPL3115A2.pdf
 wget http://www.st.com/web/en/resource/technical/document/datasheet/DM00141379.pdf -O LPS25HB.pdf
 
 # BPM280, $2.72 @ Mouser, Scaling is done by host CPU. Ideally 64-bit math
-# NPA-201, $3.21 @ Mouser, lower resolution, but looks dead simple to use.
+# NPA-201, $3.21 @ Mouser
 wget http://www.amphenol-sensors.com/en/component/edocman/359-npa-201-brochure/download?Itemid=8007%20%27 -O NPA-201.pdf
 
 # ----- CPU
@@ -67,3 +67,6 @@ wget 'http://www.ck-components.com/index.php?module=media&action=Display&cmpref=
 # Connector, 5pin FPC
 # TE Connectivity AMP 1734839-5, $0.54 @ Digikey
 wget 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734839&DocType=Customer+Drawing&DocLang=English' -O Conn5p.pdf
+
+# Matching Flat Flex Ribbion Jumper cable: Parlex  050R5-51B, $3.96
+wget 'http://www.parlex.com/tech_library/ps-2562.pdf' -O Cable5p.pdf
