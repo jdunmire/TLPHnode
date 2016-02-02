@@ -1,7 +1,7 @@
 Datasheets
 ==========
 It is not always clear to me whether or not I would have permission to
-re-distribute datasheets. So rather than take the rest,
+re-distribute datasheets. So rather than take the risk,
 `getdatasheets.sh` will fetch them from the location where they were
 found.
 
