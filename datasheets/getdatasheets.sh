@@ -46,6 +46,24 @@ wget http://g01.a.alicdn.com/kf/HTB1NMcIJpXXXXbDXXXXq6xXFXXXS/Free-Shipping-ESP8
 wget http://ww1.microchip.com/downloads/en/DeviceDoc/20005253A.pdf -O MCP1642D.pdf
 wget http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf -O AAT1217ICA-3.3-T1.pdf
 
+# ----- linear regulators(s)
+# App Notes worth reading:
+# https://www.maximintegrated.com/en/app-notes/index.mvp/id/751
+# http://www.onsemi.com/pub_link/Collateral/AND9089-D.PDF
+# ST Microelectronics
+# The LD39130SPUR is the larger package, but it requires external
+# resistors to set the voltage. $1.02 at Digikey
+wget http://www.st.com/content/ccc/resource/technical/document/datasheet/68/14/08/87/cd/cd/48/98/DM00094312.pdf/files/DM00094312.pdf/jcr:content/translations/en.DM00094312.pdf -O LD39130S.pdf
+
+# A bit expensive ($2.75) and borderline current, but in an easy to
+# handle package. Referenced in the Maxim app-note.
+#wget https://datasheets.maximintegrated.com/en/ds/MAX8840-MAX8842.pdf -O MAX884.pdf
+
+# Low cost ($0.80)
+#wget http://www.onsemi.com/pub_link/Collateral/NCP703-D.PDF -O NCP703.pdf
+
+
+
 # Batteries
 # http://www.batteryspace.com/3.2V-UN-Approved-LiFePO4-Rechargeable-Single-Cells.aspx
 # http://www.batteryspace.com/lifepo4-18650-rechargeable-cell-3-2v-1500-mah-8-4a-rate-4-32wh-ul-listed-un38-3-passed-ndgr.aspx
@@ -55,6 +73,12 @@ wget http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf -O AAT1217
 #
 # Discharge curve: http://www.yesa.com.hk/pages.asp?id=19
 #
+
+# ----- Battery Charger, LiFePO4
+# The TI bq25070 ($2.46)
+wget http://www.ti.com/lit/ds/symlink/bq25070.pdf -O bq25070.pdf
+# Alternative ($6.31)
+#wget http://www.linear.com/docs/41166 -O LTC4156.pdf
 
 # ----- Switch
 # TL3315 series @ DigiKey $0.21
@@ -70,3 +94,7 @@ wget 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 
 # Matching Flat Flex Ribbion Jumper cable: Parlex  050R5-51B, $3.96
 wget 'http://www.parlex.com/tech_library/ps-2562.pdf' -O Cable5p.pdf
+
+# wire-to-board connector, surface mount
+# Molex 1042380210, $0.62 at Digikey
+wget 'http://www.molex.com/pdm_docs/sd/1042380210_sd.pdf' -O molex_1042380210_sd.pdf
