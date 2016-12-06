@@ -97,4 +97,9 @@ wget 'http://www.parlex.com/tech_library/ps-2562.pdf' -O Cable5p.pdf
 
 # wire-to-board connector, surface mount
 # Molex 1042380210, $0.62 at Digikey
-wget 'http://www.molex.com/pdm_docs/sd/1042380210_sd.pdf' -O molex_1042380210_sd.pdf
+#wget 'http://www.molex.com/pdm_docs/sd/1042380210_sd.pdf' -O molex_1042380210_sd.pdf
+
+# 2-pin JST PH Connector for battery. Will work with Li Batteries from
+# Sparkfun. A matching connector with pig-tails is also available from
+# Sparkfun.
+wget http://www.jst-mfg.com/product/pdf/eng/ePH.pdf -O JST_ePH.pdf
