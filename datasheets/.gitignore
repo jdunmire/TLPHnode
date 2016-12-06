@@ -3,4 +3,6 @@
 
 # ignore things that could be datasheets
 *.pdf
+*.PDF
 *.jpg
+*.JPG
