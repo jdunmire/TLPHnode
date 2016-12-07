@@ -1,5 +1,5 @@
-( page_layout
-  (setup(textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
+(page_layout
+  (setup (textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
   (left_margin 10)(right_margin 10)(top_margin 10)(bottom_margin 10))
   (rect (name rect1:Rect) (start 110 34) (end 2 2))
   (rect (name rect2:Rect) (start 0 0 ltcorner) (end 0 0) (repeat 2) (incrx 2) (incry 2))
@@ -8,8 +8,8 @@
   (line (name segm2:Line) (start 50 2 lbcorner) (end 50 0 lbcorner) (repeat 30) (incrx 50))
   (tbtext 1 (name text2:Text) (pos 25 1 lbcorner) (font (size 1.3 1.3)) (repeat 100) (incrx 50))
   (line (name segm3:Line) (start 0 50 ltcorner) (end 2 50 ltcorner) (repeat 30) (incry 50))
-  ( bitmap (name bm1:Bitmap) (pos 246.4 13.89999999999998) (scale 0.5)
-  ( pngdata
+  (bitmap (name bm1:Bitmap) (pos 246.4 13.89999999999998) (scale 0.5)
+  (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 93 00 00 00 8D 08 06 00 00 00 72 B7 97 ")
     (data "3E 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 2E 18 00 00 2E ")
     (data "18 01 2A AA 27 20 00 00 20 00 49 44 41 54 78 9C ED 9D 77 58 14 D7 D7 C7 BF BB 4B 2F 52 A4 AA 48 ")
@@ -558,7 +558,7 @@
     (data "3B BB E6 70 9F 81 3C 8C 31 61 60 60 60 60 68 30 12 97 35 98 81 81 81 81 41 FA 60 8C 09 03 03 03 ")
     (data "03 43 83 61 8C 09 03 03 03 03 43 83 61 8C 09 03 03 03 03 43 83 61 8C 09 03 03 03 03 43 83 61 03 ")
     (data "60 D2 64 32 30 30 30 30 34 84 CF 1C 00 A9 00 9C 01 A8 8B 59 19 06 06 06 06 06 E9 E3 33 80 C5 FF ")
-    (data "07 47 25 A5 D2 E9 03 52 D8 00 00 00 00 49 45 4E 44 AE 42 60 82 7F ")
+    (data "07 47 25 A5 D2 E9 03 52 D8 00 00 00 00 49 45 4E 44 AE 42 60 82 ")
     )
   )
   (tbtext A (name text3:Text) (pos 1 25 ltcorner) (font (size 1.3 1.3)) (justify center) (repeat 100) (incry 50))
@@ -570,12 +570,12 @@
   (line (name segm6:Line) (start 110 8.5) (end 2 8.5))
   (tbtext "Rev: %R" (name text7:Text) (pos 24 6.9) (font bold))
   (tbtext "Size: %Z" (name text8:Text) (pos 109 6.9))
-  (tbtext "Id: %S/%N" (name text9:Text) (pos 24 4.1))
+  (tbtext "Sheet: %S/%N" (name text9:Text) (pos 24 4.1))
   (line (name segm7:Line) (start 110 12.5) (end 2 12.5))
   (tbtext "Title: %T" (name text10:Text) (pos 109 10.7) (font (size 2 2) bold italic))
   (tbtext "File: %F" (name text11:Text) (pos 109 14.3))
   (line (name segm8:Line) (start 110 18.5) (end 2 18.5))
-  (tbtext "Sheet: %P" (name text12:Text) (pos 109 17))
+  (tbtext "Path: %P" (name text12:Text) (pos 109 17))
   (tbtext %Y (name text13:Text) (pos 94 30) (font (size 3 3) bold))
   (tbtext %C0 (name text14:Text) (pos 93.99999999999997 25.99999999999997))
   (tbtext %C1 (name text15:Text) (pos 93.99999999999997 22.99999999999997))
@@ -584,8 +584,8 @@
   (line (name segm9:Line) (start 90 8.5) (end 90 5.5))
   (line (name segm10:Line) (start 26 8.5) (end 26 2))
   (tbtext "This work is licensed under the\nCreative Commons Attribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/." (name text18:Text) (pos 255.4 6.899999999999977))
-  ( bitmap (name bm2:Bitmap) (pos 101.4 26.89999999999998) (scale 1)
-  ( pngdata
+  (bitmap (name bm2:Bitmap) (pos 101.4 26.89999999999998) (scale 1)
+  (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 7C 00 00 00 96 08 06 00 00 00 1C C1 EC ")
     (data "5A 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 08 34 00 00 08 ")
     (data "34 01 F3 58 BF 37 00 00 1C D9 49 44 41 54 78 9C ED 9D 79 7C 54 D5 D9 C7 BF E7 CE 64 4F 58 C2 72 ")
@@ -819,7 +819,7 @@
     (data "5A B6 F3 76 F2 AD F3 1F D3 D0 0F C1 15 FF 7B 10 2B C4 42 9F 34 E2 CE CB FF 2E DA 67 48 88 94 FA ")
     (data "A5 47 67 AB 0E C4 5D 4A 9C 0A 0C C6 9D 70 C9 C4 FD 21 6C 07 96 E3 0E B1 CA 80 8A BD F1 B6 1D 0F ")
     (data "D1 80 44 25 C0 21 D1 D7 2C 5C 37 A9 2C F6 7C 07 4D C0 1A DC EF A0 FD 7B 78 CF B2 1D 4F 71 6E 7A ")
-    (data "E3 FF 01 CF 8F 96 B9 11 52 09 F5 00 00 00 00 49 45 4E 44 AE 42 60 82 00 ")
+    (data "E3 FF 01 CF 8F 96 B9 11 52 09 F5 00 00 00 00 49 45 4E 44 AE 42 60 82 ")
     )
   )
 )
