@@ -90,9 +90,22 @@ wget 'http://www.ck-components.com/index.php?module=media&action=Display&cmpref=
 
 # Connector, 5pin FPC
 # TE Connectivity AMP 1734839-5, $0.54 @ Digikey
-wget 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734839&DocType=Customer+Drawing&DocLang=English' -O Conn5p.pdf
+#wget 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734839&DocType=Customer+Drawing&DocLang=English' -O Conn5p.pdf
 
-# Matching Flat Flex Ribbion Jumper cable: Parlex  050R5-51B, $3.96
+# Amphenol FCI
+# 6 Position FFC, FPC Connector Contacts, Top 0.020" (0.50mm) Surface
+# Mount, Right Angle
+# SFV6R-2STE1HLF
+#wget 'http://portal.fciconnect.com/Comergent//fci/drawing/10112793.pdf'
+#-O FPC_Connector-6-Pitch0.5mm.pdf
+
+# Amphenol FCI
+# 5 Position FFC, FPC Connector Contacts, Top 0.020" (0.50mm) Surface
+# Mount, Right Angle
+# SFV5R-2STE1HLF
+wget 'http://portal.fciconnect.com/Comergent//fci/drawing/10112793.pdf' -O FPC_Connector-Pitch0.5mm.pdf
+
+# Matching Flat Flex Ribbion Jumper cable, 2" version: Parlex  050R5-51B, $3.96
 wget 'http://www.parlex.com/tech_library/ps-2562.pdf' -O Cable5p.pdf
 
 # wire-to-board connector, surface mount
