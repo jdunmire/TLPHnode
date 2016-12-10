@@ -720,8 +720,6 @@ Wire Wire Line
 	2400 5700 2400 5800
 Wire Wire Line
 	2300 5800 2500 5800
-Wire Wire Line
-	2300 5700 2300 5800
 Connection ~ 2400 5800
 Wire Wire Line
 	2500 4400 2500 4300
@@ -843,4 +841,6 @@ F 3 "DOCUMENTATION" H 2400 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2500 4300
+Wire Wire Line
+	2300 5700 2300 5800
 $EndSCHEMATC
