@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jerry/Dropbox/TLPHnode/TLPHnode.sch)
-    (date "Mon 12 Dec 2016 01:15:50 PM PST")
+    (date "Tue 13 Dec 2016 11:08:03 PM PST")
     (tool "Eeschema no-vcs-found-7391~56~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -36,7 +36,7 @@
       (tstamp 583B60A2))
     (comp (ref P1)
       (value Bat)
-      (footprint Socket_Strips:Socket_Strip_Angled_1x02)
+      (footprint Pin_Headers:Pin_Header_Straight_1x02)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
       (tstamp 583B6122))
@@ -354,14 +354,14 @@
         (pin (num 5) (name VDD) (type power_in))
         (pin (num 6) (name SLC) (type 3state)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical rockingdlabs)
-      (uri /home/jerry/kicad/library/kicad-rockingdlabs/rockingdlabs.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical ESP8266)
       (uri /home/jerry/kicad/library/kicad-ESP8266/ESP8266.lib))
+    (library (logical rockingdlabs)
+      (uri /home/jerry/kicad/library/kicad-rockingdlabs/rockingdlabs.lib))
     (library (logical TLPHnode-cache)
       (uri /home/jerry/Dropbox/TLPHnode/TLPHnode-cache.lib)))
   (nets

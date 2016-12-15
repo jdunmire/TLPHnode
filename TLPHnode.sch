@@ -84,7 +84,7 @@ U 1 1 583B6122
 P 950 2600
 F 0 "P1" H 1028 2641 50  0000 L CNN
 F 1 "Bat" H 1028 2550 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x02" H 950 2600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 950 2600 50  0001 C CNN
 F 3 "" H 950 2600 50  0000 C CNN
 	1    950  2600
 	-1   0    0    -1  
