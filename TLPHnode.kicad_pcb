@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7391~56~ubuntu16.04.1)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7406~56~ubuntu16.04.1)
 
   (general
     (links 79)
     (no_connects 0)
-    (area 130.399999 80.399999 158.600001 101.100001)
+    (area 122.822599 79.034028 160.1799 101.100733)
     (thickness 1.6)
     (drawings 13)
     (tracks 228)
@@ -69,8 +69,8 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 0 0)
-    (grid_origin 147.74 99.99)
+    (aux_axis_origin 130.5 80.5)
+    (grid_origin 130.5 80.5)
     (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x00030_ffffffff)
