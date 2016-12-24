@@ -173,13 +173,11 @@ F 3 "" H 2400 3400 50  0000 C CNN
 	1    2400 3400
 	1    0    0    -1  
 $EndComp
-Text Label 3600 6400 0    60   ~ 0
-VCC
-Text Label 3600 6600 0    60   ~ 0
+Text Label 3650 6600 0    60   ~ 0
 GND
-Text Label 3600 6300 0    60   ~ 0
+Text Label 3650 6200 0    60   ~ 0
 RXD
-Text Label 3600 6200 0    60   ~ 0
+Text Label 3650 6100 0    60   ~ 0
 TXD
 Text Label 8300 4300 0    60   ~ 0
 TXD
@@ -302,7 +300,7 @@ F 3 "" H 7600 5150 50  0000 C CNN
 $EndComp
 Text Label 8300 4700 0    60   ~ 0
 PGM
-Text Label 3600 6500 0    60   ~ 0
+Text Label 3650 6500 0    60   ~ 0
 PGM
 $Comp
 L R R6
@@ -351,12 +349,12 @@ $EndComp
 $Comp
 L R R12
 U 1 1 583BD5E7
-P 7700 3900
-F 0 "R12" H 7770 3946 50  0000 L CNN
-F 1 "4.7k" V 7700 3800 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 7630 3900 50  0001 C CNN
-F 3 "" H 7700 3900 50  0000 C CNN
-	1    7700 3900
+P 8150 5150
+F 0 "R12" H 8220 5196 50  0000 L CNN
+F 1 "10k" V 8150 5050 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8080 5150 50  0001 C CNN
+F 3 "" H 8150 5150 50  0000 C CNN
+	1    8150 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -364,7 +362,7 @@ L R R9
 U 1 1 583BD73B
 P 7250 3900
 F 0 "R9" H 7320 3946 50  0000 L CNN
-F 1 "4.7k" V 7250 3800 50  0000 L CNN
+F 1 "10k" V 7250 3800 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 7180 3900 50  0001 C CNN
 F 3 "" H 7250 3900 50  0000 C CNN
 	1    7250 3900
@@ -585,18 +583,7 @@ F 3 "DOCUMENTATION" H 2400 5050 50  0001 C CNN
 	1    2400 5050
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X06 P2
-U 1 1 584F0E69
-P 4000 6450
-F 0 "P2" H 4078 6491 50  0000 L CNN
-F 1 "CONN_01X06" H 4078 6400 50  0000 L CNN
-F 2 "rockingdlabs:FPC_conn-6_8x4.9mm_Pitch0.5mm" H 4000 6450 50  0001 C CNN
-F 3 "" H 4000 6450 50  0000 C CNN
-	1    4000 6450
-	1    0    0    -1  
-$EndComp
-Text Label 3600 6700 0    60   ~ 0
+Text Label 3650 6700 0    60   ~ 0
 VBat
 Text Label 1300 2500 0    60   ~ 0
 VBat
@@ -639,15 +626,13 @@ Wire Wire Line
 Connection ~ 1550 2550
 Connection ~ 2050 3350
 Wire Wire Line
-	3800 6500 3500 6500
+	3850 6500 3550 6500
 Wire Wire Line
-	3800 6400 3500 6400
+	3850 6200 3550 6200
 Wire Wire Line
-	3800 6300 3500 6300
+	3850 6100 3550 6100
 Wire Wire Line
-	3800 6200 3500 6200
-Wire Wire Line
-	3800 6600 3500 6600
+	3850 6600 3550 6600
 Wire Wire Line
 	7200 4300 8500 4300
 Wire Wire Line
@@ -709,7 +694,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 5300 7600 5550
 Wire Wire Line
-	7600 5550 7350 5550
+	7350 5550 8150 5550
 Connection ~ 7350 5550
 Wire Wire Line
 	7200 4700 8500 4700
@@ -729,21 +714,16 @@ Wire Wire Line
 	8050 4050 8050 4700
 Connection ~ 8050 4700
 Wire Wire Line
-	7200 4600 7700 4600
+	7200 4600 8500 4600
 Wire Wire Line
 	7250 4050 7250 4500
 Wire Wire Line
-	7250 4500 7200 4500
-Wire Wire Line
-	7700 4600 7700 4050
+	7200 4500 8500 4500
 Wire Wire Line
 	7250 3750 7250 3650
 Wire Wire Line
 	7250 3650 8050 3650
 Connection ~ 8050 3650
-Wire Wire Line
-	7700 3750 7700 3650
-Connection ~ 7700 3650
 Wire Wire Line
 	9250 1400 10000 1400
 Connection ~ 9250 1400
@@ -835,7 +815,7 @@ Connection ~ 2500 4300
 Wire Wire Line
 	2300 5700 2300 5800
 Wire Wire Line
-	3800 6700 3500 6700
+	3850 6700 3550 6700
 Connection ~ 1300 2550
 Wire Wire Line
 	1150 2650 1200 2650
@@ -857,4 +837,34 @@ Wire Wire Line
 Wire Wire Line
 	1200 2300 1200 2550
 Connection ~ 1200 2550
+$Comp
+L CONN_01X07 P2
+U 1 1 585DBFD0
+P 4050 6400
+F 0 "P2" H 4128 6441 50  0000 L CNN
+F 1 "CONN_01X07" H 4128 6350 50  0000 L CNN
+F 2 "rockingdlabs:FPC_conn-7_8x4.9mm_Pitch0.5mm" H 4050 6400 50  0001 C CNN
+F 3 "" H 4050 6400 50  0000 C CNN
+	1    4050 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6300 3550 6300
+Wire Wire Line
+	3850 6400 3550 6400
+Text Label 3650 6300 0    60   ~ 0
+CTRL
+Text Label 3650 6400 0    60   ~ 0
+CHRG
+Connection ~ 7250 4500
+Text Label 8300 4500 0    60   ~ 0
+CHRG
+Wire Wire Line
+	8150 5550 8150 5300
+Connection ~ 7600 5550
+Wire Wire Line
+	8150 5000 8150 4600
+Connection ~ 8150 4600
+Text Label 8300 4600 0    60   ~ 0
+CTRL
 $EndSCHEMATC
