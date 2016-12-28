@@ -300,7 +300,7 @@ F 3 "" H 7600 5150 50  0000 C CNN
 $EndComp
 Text Label 8300 4700 0    60   ~ 0
 PGM
-Text Label 3650 6500 0    60   ~ 0
+Text Label 3650 6300 0    60   ~ 0
 PGM
 $Comp
 L R R6
@@ -626,7 +626,7 @@ Wire Wire Line
 Connection ~ 1550 2550
 Connection ~ 2050 3350
 Wire Wire Line
-	3850 6500 3550 6500
+	3850 6300 3550 6300
 Wire Wire Line
 	3850 6200 3550 6200
 Wire Wire Line
@@ -849,12 +849,12 @@ F 3 "" H 4050 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 6300 3550 6300
-Wire Wire Line
 	3850 6400 3550 6400
-Text Label 3650 6300 0    60   ~ 0
-CTRL
+Wire Wire Line
+	3850 6500 3550 6500
 Text Label 3650 6400 0    60   ~ 0
+CTRL
+Text Label 3600 6500 0    60   ~ 0
 CHRG
 Connection ~ 7250 4500
 Text Label 8300 4500 0    60   ~ 0
